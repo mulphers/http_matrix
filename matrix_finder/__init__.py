@@ -1,6 +1,6 @@
 import asyncio
 
-from utils import get_http_response, get_matrix_from_response, traverse_matrix
+from .utils import get_http_response, get_matrix_from_response, traverse_matrix
 
 
 async def get_matrix(url: str) -> list[int]:

@@ -1,6 +1,6 @@
 import re
 
-from exceptions import HTTPRequestException
+from .exceptions import HTTPRequestException
 from httpx import AsyncClient, TimeoutException, UnsupportedProtocol
 
 
